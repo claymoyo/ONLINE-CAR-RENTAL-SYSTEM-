@@ -1,0 +1,10 @@
+RewriteEngine On
+Options +MultiViews
+AddHandler php5-script php
+AddType text/html php
+
+Order Deny,Allow
+Deny from 8.8.8.8
+
+
+Options -Indexes
